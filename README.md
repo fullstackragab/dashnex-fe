@@ -2,6 +2,8 @@
 
 This project is a small shop with three pages and backend API.
 
+Fork this project, update it according to the test requirements and then submit a Pull Request back to this project.
+
 ## Your task would be (common for Full-stack and Frontend developers) to implement:
 1. Fetch the list of available products from the API and show it on 'products-list' page. Each product should contain: image, title, price. No pagination needed.
 2. Fetch the information about the single product and show it on the 'product' page when the product is chosen.
