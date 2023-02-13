@@ -27,7 +27,7 @@ Fork this project, update it according to the test requirements and then submit 
 
 ## Useful commands
 
-Install all the dependencies by `npm i`
-To start the dev server run `ng serve`
-To run tests run `ng test` or `ng e2e`
-To build the project run `ng build`
+- Install all the dependencies by `npm i`
+- To start the dev server run `ng serve` or `npm run start`
+- To run tests run `ng test` or `ng e2e` or `npm run test`
+- To build the project run `ng build` or `npm run build`
