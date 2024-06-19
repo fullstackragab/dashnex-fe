@@ -1,0 +1,29 @@
+.wrapper {
+  width: 100%;
+  grid-template-columns: 1fr;
+  display: grid;
+  gap: 10px;
+  margin: auto;
+  padding: 26px 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  @media (min-width: 760px) {
+    grid-template-columns: 200px 1fr 100px;
+    max-width: 1200px;
+  }
+}
+.wrapper:hover {
+  filter: brightness(1.1);
+}
+.image {
+  width: 100%;
+  @media (min-width: 760px) {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+  }
+}
+.price {
+  font-size: 2em;
+  font-weight: bold;
+}

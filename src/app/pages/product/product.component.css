@@ -1,0 +1,45 @@
+.wrapper {
+  width: 100%;
+  grid-template-columns: 1fr;
+  display: grid;
+  gap: 10px;
+  margin: auto;
+  padding: 26px 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  place-items: center;
+  margin-bottom: 60px;
+  @media (min-width: 760px) {
+    max-width: 1200px;
+  }
+}
+.wrapper:hover {
+  filter: brightness(1.1);
+}
+.wrapper-2 {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.image {
+  width: 100%;
+  @media (min-width: 760px) {
+    max-width: 600px;
+    max-height: 400px;
+    object-fit: contain;
+  }
+}
+.price {
+  font-size: 2em;
+  font-weight: bold;
+}
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

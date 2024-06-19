@@ -1,0 +1,7 @@
+@if(product) {
+<div class="wrapper" [routerLink]="['/', 'product', product.id]">
+  <img class="image" [src]="product.image" [alt]="product.title" />
+  <div class="title">{{ product.title }}</div>
+  <div class="price">${{ product.price }}</div>
+</div>
+}
