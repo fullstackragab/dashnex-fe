@@ -2,4 +2,10 @@
   <div class="brand" routerLink="/">
     {{ "DASHNEX " }}
   </div>
+  <nav class="menu">
+    <a routerLink="/" [ngClass]="{ active: url === '/' || url === '/home' }"
+      >Home</a
+    >
+    <a routerLink="/cart" [ngClass]="{ active: url === '/cart' }">Cart</a>
+  </nav>
 </header>
