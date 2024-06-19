@@ -1,1 +1,3 @@
-<p>cart works!</p>
+@for (item of cartItems; track $index) {
+<app-cart-item-card [item]="item"></app-cart-item-card>
+}

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { first } from 'rxjs';
+import { BuyButtonsComponent } from 'src/app/components/buy-buttons/buy-buttons.component';
 import { Product } from 'src/app/models/product';
 import { ProductsService } from 'src/app/services/products.service';
 
@@ -8,6 +9,8 @@ import { ProductsService } from 'src/app/services/products.service';
   selector: 'app-product',
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.css'],
+  standalone: true,
+  imports: [BuyButtonsComponent],
 })
 export class ProductComponent implements OnInit {
   productId: any;
